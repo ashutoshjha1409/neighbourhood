@@ -12,7 +12,10 @@
 */
 
 Route::get('/', function () {
-    return view('welcome');
+    return view('nb');
+});
+Route::get('test', function () {
+    echo "dfhj";
 });
 
 /*
